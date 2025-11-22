@@ -25,8 +25,13 @@ SECRET_KEY = 'django-insecure-o8@hc@1%*(204dta6uo&hhfajr)h2c9a+^l7q8+2y=fvz6w5s(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
-
+ALLOWED_HOSTS = [
+    'testing.local',
+    'testing.alvaroavila.dev',
+    'dokploy.alvaroavila.dev',
+    'registry.alvaroavila.dev',
+    '*'
+]
 
 # Application definition
 
